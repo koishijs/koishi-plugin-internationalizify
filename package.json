@@ -1,0 +1,34 @@
+{
+  "name": "koishi-plugin-internationalizify",
+  "description": "Automatic translation via user locale",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "koishi": {
+    "description": {
+      "zh": "🌏 根据用户语言自动翻译输出文本",
+      "en": "🌏 Automatic translation via user locale",
+      "jp": "🌏 ユーザーロケールによる自動翻訳"
+    },
+    "service": {
+      "required": ["translator"]
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "i18n",
+    "internationalizify",
+    "internationalize",
+    "internationalization"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.13.0"
+  }
+}
